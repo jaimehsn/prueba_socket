@@ -1,0 +1,31 @@
+{
+  "name": "pruebas_socket",
+  "version": "1.0.0",
+  "description": "Pruebas para ver como funciona socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimehsn/prueba_socket.git"
+  },
+  "keywords": [
+    "prueba",
+    "socket",
+    "node",
+    "node",
+    "js"
+  ],
+  "author": "jaimehsn@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaimehsn/prueba_socket/issues"
+  },
+  "homepage": "https://github.com/jaimehsn/prueba_socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  }
+}
