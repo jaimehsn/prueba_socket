@@ -7,9 +7,14 @@ app.get('/', (req, res) => {
 });
 
 io.on('connection', (socket) => {
-    socket.on('chat message', (msg) => {
-        io.emit('chat message', msg);
+    console.log('a user connected');
+    socket.on('chat message', (data) => {
+        io.emit(data.group, data);
+        console.log("Grupo: ",data.group);
     });
+    socket.on('disconnect', () => {
+        console.log('user disconnected');
+      });
 });
 
 http.listen(3000, () => {

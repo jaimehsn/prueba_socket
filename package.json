@@ -4,7 +4,7 @@
   "description": "Pruebas para ver como funciona socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
